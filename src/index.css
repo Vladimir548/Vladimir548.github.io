@@ -7,7 +7,7 @@ div {
 }
 
 .quiz {
-	width: 975px;
+	max-width: 975px;
 	margin: 0 auto;
 	margin-top: 100px;
 }
@@ -43,7 +43,7 @@ div {
 }
 
 .answer {
-	width: 48%;
+	width: 100%;
 	background: #fff;
 	border: 2px solid #0094da;
 	min-height: 70px;
@@ -51,6 +51,7 @@ div {
 	margin-bottom: 30px;
 	display: flex;
 }
+
 
 .answers {
 	display: flex;
